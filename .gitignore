@@ -17,6 +17,9 @@
 !/log/.keep
 !/tmp/.keep
 
+# Ignore metadata on MacOS folders
+.DS_Store
+
 # Ignore pidfiles, but keep the directory.
 /tmp/pids/*
 !/tmp/pids/
